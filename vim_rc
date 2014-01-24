@@ -1,0 +1,56 @@
+""" TODO: Comprehensive Code Review
+""" It's been a long while since I've looked at all of these, they can surely
+""" be updated and vastly improved upon
+
+if &t_Co > 1
+    syntax enable
+endif
+
+"""
+" Enable line numbers, highlighted searches, and my prefered colorscheme
+"""
+set nu
+set hlsearch
+colorscheme torte
+
+"""
+" I'm used to some large terminal windows for coding
+"""
+set columns=170
+set lines=80
+
+"""
+" Whitespace handling 
+"""
+set softtabstop=4
+set shiftwidth=4
+set tabstop=4
+set expandtab
+
+"""
+" Match up those () {} [] etc...
+"""
+set showmatch
+
+"""
+" Diff it the way you like
+"""
+set diffopt=filler,iwhite
+
+set wmw=0
+set wmh=0
+
+"""
+" For working in X.
+"""
+set guifont=Lucida_Console:h7:cANSI	" TODO: I should probably consider a slightly larger font than 7pt
+
+"""
+" Turn on some folding options
+"""
+set foldopen=all
+set foldclose=all
+set foldminlines=5
+
+let php_folding=2
+
